@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Hello world!
+Hello world! Website is still under development. Will be continuously updated.
