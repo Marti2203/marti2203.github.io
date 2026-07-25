@@ -89,8 +89,9 @@ author:
   bio              : "PhD Student at National University of Singapore, Programming Languages and Software Engineering (PLSE) lab in Trustworthy Software Systems group, advised by professor Abhik Roychoudhury"
   location         : "Singapore"
   employer         :
-  pubmed           : 
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=ByLkuBgAAAAJ&hl=bg"
+  dblp             : "https://dblp.org/pid/351/7622.html"
   email            : "mmirchev@comp.nus.edu.sg"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
