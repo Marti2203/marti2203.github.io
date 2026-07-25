@@ -141,3 +141,26 @@ select {
 :root[data-theme="dark"] .theme-toggle .theme-toggle__sun {
   display: inline-block;
 }
+
+/* a small terminal-prompt touch on the site title */
+.masthead__menu-item--lg > a {
+  font-family: $monospace;
+  font-weight: bold;
+}
+
+.masthead__menu-item--lg > a:before {
+  content: "$ ";
+  color: var(--muted-color);
+  font-weight: normal;
+}
+
+/* bio read as a code comment */
+.author__bio {
+  font-family: $monospace;
+  font-style: italic;
+  color: var(--muted-color);
+}
+
+.author__bio:before {
+  content: "// ";
+}
