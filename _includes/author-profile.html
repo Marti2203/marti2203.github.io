@@ -33,7 +33,12 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
-      {% if author.email %}
+      {% if author.emails %}
+        {% for email_entry in author.emails %}
+          {% assign email_parts = email_entry.address | split: "@" %}
+          <li><a href="#" class="email-obfuscate" data-user="{{ email_parts[0] }}" data-domain="{{ email_parts[1] }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ email_entry.label | default: site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+        {% endfor %}
+      {% elsif author.email %}
         {% assign email_parts = author.email | split: "@" %}
         <li><a href="#" class="email-obfuscate" data-user="{{ email_parts[0] }}" data-domain="{{ email_parts[1] }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}

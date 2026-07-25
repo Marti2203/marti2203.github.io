@@ -92,7 +92,13 @@ author:
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=ByLkuBgAAAAJ&hl=bg"
   dblp             : "https://dblp.org/pid/351/7622.html"
-  email            : "mmirchev@comp.nus.edu.sg"
+  emails:
+    - address        : "mirchevmartin2203@gmail.com"
+      label           : "Email (personal)"
+    - address        : "martin.mirchev@u.nus.edu"
+      label           : "Email (NUS)"
+    - address        : "mmirchev@comp.nus.edu.sg"
+      label           : "Email (defunct)"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
