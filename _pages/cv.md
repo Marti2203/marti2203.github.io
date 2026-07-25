@@ -11,34 +11,50 @@ redirect_from:
 
 Education
 ======
-* BSc in Computer Science and Engneering, Eindhoven University of Technology, 2022
-* Ph.D in Computer Science, National University of Singapore, 2026 (expected)
+* B.Sc. in Computer Science and Engineering, Eindhoven University of Technology, 2019-2022 (GPA 8.1/10, Cum Laude)
+* Ph.D. in Computer Science, National University of Singapore, 2022-2026 (expected; qualifying examination passed)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2026 - present: Research Consultant
+  * Sonar
+  * Continuing research collaboration on automated program repair and AI-assisted software engineering
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2025: Research Engineer
+  * Sonar
+  * Worked on agentic program repair and AI-assisted issue resolution, including SonarQube-integrated tooling
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* Nov 2020 - May 2022: Teaching Assistant
+  * Eindhoven University of Technology
+  * Courses: 2ITB0 Provable Programming, 2IT80 Discrete Structures, 2IT60S Logic and Set Theory, 2IT90 Automata, Language Theory and Complexity
+
+* Jul 2020 - Aug 2022: ANTLR Software Consultant
+  * Kruggle
+  * Migrated existing grammars from ANTLRv3 to ANTLRv4; investigated performance and memory issues
+  * Added support for new grammars: Scala, Swift, Kotlin, Objective-C, Go, COBOL, ABAP
+
+* May-Sep 2017, May-Sep 2018: Full Stack Engineer Intern
+  * Codific
+  * Added internationalization capabilities and helped maintain the MyPavel project
+  * Developed software for BeagleBone; extended the Prototizer tool to generate Node.js/Ionic projects with PostgreSQL schemas
+  * Worked on multiple Zend/PHP backends
+
+Achievements
+======
+* 2019: 1st place, individual rankings, National Olympiad for IT
+* 2019: 3rd place, team rankings, National Olympiad for IT
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Program analysis and automated program repair
+* Large language models for code generation and security
+* Fuzzing and vulnerability detection
+* Compiler/grammar engineering (ANTLR)
+
+Personal Projects
+======
+* **ANTLRStudio** (F#, C#) - a minimalistic IDE for developing ANTLR grammars
+* Interpreter for a kernel programming language (C#)
 
 Publications
 ======
@@ -57,7 +73,3 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
