@@ -20,9 +20,14 @@ Work experience
   * Sonar
   * Continuing research collaboration on automated program repair and AI-assisted software engineering
 
-* 2025: Research Engineer
+* Feb 2025 - 2025: Research Engineer
   * Sonar
-  * Worked on agentic program repair and AI-assisted issue resolution, including SonarQube-integrated tooling
+  * Worked on agentic program repair and AI-assisted issue resolution, including SonarQube-integrated tooling, following Sonar's acquisition of AutoCodeRover
+
+* 2024 - Feb 2025: Co-Founder & CTO
+  * AutoCodeRover
+  * NUS spin-off building an autonomous AI agent platform for automated software development, combining LLMs with code search and reasoning to automate steps of the SDLC
+  * Acquired by [Sonar](https://www.sonarsource.com/company/press-releases/sonar-acquires-autocoderover-to-supercharge-developers-with-ai-agents/) in February 2025
 
 * Nov 2020 - May 2022: Teaching Assistant
   * Eindhoven University of Technology

@@ -1,0 +1,143 @@
+/* ==========================================================================
+   Theme (light / dark mode)
+   ========================================================================== */
+
+:root {
+  --page-bg: #ffffff;
+  --text-color: #{$text-color};
+  --border-color: #{$lighter-gray};
+  --panel-bg: #{$lighter-gray};
+  --muted-color: #{mix(#fff, $gray, 25%)};
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --page-bg: #0d1117;
+    --text-color: #c9d1d9;
+    --border-color: #30363d;
+    --panel-bg: #161b22;
+    --muted-color: #8b949e;
+  }
+}
+
+:root[data-theme="dark"] {
+  --page-bg: #0d1117;
+  --text-color: #c9d1d9;
+  --border-color: #30363d;
+  --panel-bg: #161b22;
+  --muted-color: #8b949e;
+}
+
+html {
+  background-color: var(--page-bg);
+}
+
+body {
+  color: var(--text-color);
+}
+
+.masthead,
+.greedy-nav {
+  background: var(--page-bg);
+}
+
+/* secondary / muted text used throughout the theme */
+.archive__subtitle,
+figcaption,
+.page__footer,
+.page__footer .fas,
+.page__footer .fab,
+.page__footer .far,
+.page__footer .fal,
+.pagination--pager,
+.breadcrumbs a,
+.page__meta,
+.footnotes,
+.footnote {
+  color: var(--muted-color);
+}
+
+/* panels that used a hardcoded light background */
+.page__footer,
+.author__urls,
+.greedy-nav .hidden-links,
+table th {
+  background-color: var(--panel-bg);
+}
+
+.page__footer {
+  border-top-color: var(--border-color);
+}
+
+/* keep code blocks on their light, syntax-highlighted background in both modes */
+div.highlighter-rouge,
+figure.highlight,
+p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  border-color: #{$lighter-gray};
+}
+
+/* brighter link hover on dark backgrounds */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) a:hover {
+    color: #a5b4fc;
+  }
+}
+
+:root[data-theme="dark"] a:hover {
+  color: #a5b4fc;
+}
+
+/* form inputs (e.g. search box) */
+input,
+textarea,
+select {
+  background-color: var(--page-bg);
+  color: var(--text-color);
+  border-color: var(--border-color);
+}
+
+/* reserve space so the toggle button doesn't overlap the last nav link */
+.masthead__menu {
+  margin-right: 2.75em;
+}
+
+/* theme toggle button */
+.theme-toggle {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.2em;
+  height: 2.2em;
+  padding: 0;
+  background: none;
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: $global-transition;
+}
+
+.theme-toggle:hover {
+  color: $primary-color;
+  border-color: $primary-color;
+}
+
+.theme-toggle .theme-toggle__sun {
+  display: none;
+}
+
+:root[data-theme="dark"] .theme-toggle .theme-toggle__moon {
+  display: none;
+}
+
+:root[data-theme="dark"] .theme-toggle .theme-toggle__sun {
+  display: inline-block;
+}
