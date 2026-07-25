@@ -30,3 +30,8 @@ Alongside my PhD, I co-founded [AutoCodeRover](https://www.sonarsource.com/compa
 Before NUS, I completed my B.Sc. in Computer Science and Engineering at Eindhoven University of Technology (Cum Laude), and worked on compiler/grammar tooling (ANTLR) and full-stack engineering.
 
 You can find a full list of my papers on the [publications](/publications/) page or on my [Google Scholar profile]({{ site.author.googlescholar }}).
+
+Fun Fact
+======
+
+*(to be added)*
