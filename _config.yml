@@ -98,7 +98,7 @@ author:
     - address        : "martin.mirchev@u.nus.edu"
       label           : "Email (NUS)"
     - address        : "mmirchev@comp.nus.edu.sg"
-      label           : "Email (defunct)"
+      label           : "Email (old)"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
