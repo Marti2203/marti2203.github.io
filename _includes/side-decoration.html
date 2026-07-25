@@ -1,0 +1,91 @@
+<div class="side-deco side-deco--left" aria-hidden="true"><pre>method Max(a: int, b: int)
+    returns (m: int)
+  ensures m >= a && m >= b
+  ensures m == a || m == b
+{
+  if a >= b { m := a; }
+  else { m := b; }
+}
+
+predicate Sorted(s: seq&lt;int&gt;)
+{
+  forall i, j ::
+    0 &lt;= i &lt; j &lt; |s| ==&gt;
+      s[i] &lt;= s[j]
+}
+
+method BinarySearch(a: array&lt;int&gt;,
+    key: int)
+    returns (index: int)
+  requires Sorted(a[..])
+  ensures 0 &lt;= index ==&gt;
+    a[index] == key
+  ensures index &lt; 0 ==&gt;
+    forall k ::
+      0 &lt;= k &lt; a.Length ==&gt;
+        a[k] != key
+{
+  var lo, hi := 0, a.Length;
+  while lo &lt; hi
+    invariant 0 &lt;= lo &lt;= hi
+  {
+    var mid := (lo + hi) / 2;
+    if a[mid] &lt; key {
+      lo := mid + 1;
+    } else if key &lt; a[mid] {
+      hi := mid;
+    } else {
+      return mid;
+    }
+  }
+  return -1;
+}
+
+lemma MaxCommutative(a: int, b: int)
+  ensures Max(a, b) == Max(b, a)
+{
+}
+</pre></div>
+
+<div class="side-deco side-deco--right" aria-hidden="true"><pre>fn verify(x: &amp;State) -> bool {
+    x.balance >= 0
+        && x.locked &lt;= x.balance
+}
+
+#[requires(n > 0)]
+#[ensures(ret >= n)]
+fn next_pow2(n: u64) -> u64 {
+    let mut p = 1;
+    while p &lt; n {
+        p &lt;&lt;= 1;
+    }
+    p
+}
+
+(declare-const x Int)
+(declare-const y Int)
+(assert (> x 0))
+(assert (= (+ x y) 10))
+(check-sat)
+; sat
+(get-model)
+; (define-fun x () Int 3)
+; (define-fun y () Int 7)
+
+(assert (forall ((a Int) (b Int))
+  (=> (and (> a 0) (> b 0))
+      (> (+ a b) 0))))
+(check-sat)
+; unsat
+
+impl Repair for Patch {
+    fn verify(&amp;self) -> Outcome {
+        if self.tests_pass()
+            &amp;&amp; self.no_regression() {
+            Outcome::Plausible
+        } else {
+            Outcome::Rejected
+        }
+    }
+}
+</pre></div>

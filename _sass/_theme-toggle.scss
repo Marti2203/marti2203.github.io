@@ -154,6 +154,49 @@ select {
   font-weight: normal;
 }
 
+/* decorative side code/formulae panels */
+.side-deco {
+  display: none;
+  position: fixed;
+  top: $masthead-height + 40px;
+  bottom: 0;
+  width: 260px;
+  overflow: hidden;
+  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  pointer-events: none;
+  user-select: none;
+  z-index: 1;
+
+  pre {
+    margin: 0;
+    padding: 0;
+    font-family: $monospace;
+    font-size: 0.7em;
+    line-height: 1.6;
+    white-space: pre;
+    color: var(--muted-color);
+    opacity: 0.5;
+  }
+}
+
+.side-deco--left {
+  left: 0;
+  padding-left: 1.5em;
+}
+
+.side-deco--right {
+  right: 0;
+  padding-right: 1.5em;
+  text-align: right;
+}
+
+@media (min-width: 1700px) {
+  .side-deco {
+    display: block;
+  }
+}
+
 /* bio read as a code comment */
 .author__bio {
   font-family: $monospace;
