@@ -9,8 +9,8 @@ author_profile: true
 
 Education
 ======
-* B.Sc. in Computer Science and Engineering, Eindhoven University of Technology, 2019–2022 (GPA 8.1/10, cum laude)
 * PhD in Computer Science, National University of Singapore, 2022–2028 (expected; qualifying examination passed)
+* B.Sc. in Computer Science and Engineering, Eindhoven University of Technology, 2019–2022 (GPA 8.1/10, cum laude)
 
 Work experience
 ======
