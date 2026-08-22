@@ -85,7 +85,7 @@ analytics:
 author:
   name             : "Martin Mirchev"
   avatar           : "profile.png"
-  bio              : "PhD student at the National University of Singapore, working in the Programming Languages and Software Engineering (PLSE) Lab within the Trustworthy Software Systems group under Professor Abhik Roychoudhury"
+  bio              : "PhD student at the National University of Singapore, working in the Programming Languages and Software Engineering (PLSE) Lab within the Trustworthy Software Systems group under Professor Abhik Roychoudhury. My research spans automated program repair, automated verified evolution of software systems, and AI-assisted software security."
   location         : "Singapore"
   employer         :
   pubmed           :
