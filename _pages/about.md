@@ -2,6 +2,7 @@
 permalink: /
 title: "About me"
 excerpt: "About me"
+description: "PhD student at the National University of Singapore, researching automated program repair, LLM-driven fuzzing, and AI-assisted software security."
 author_profile: true
 redirect_from: 
   - /about/
