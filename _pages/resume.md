@@ -7,18 +7,18 @@ author_profile: true
 
 {% include base_path %}
 
-Engineering-oriented researcher on software assurance, focused on making LLM-assisted software engineering reliable and secure — from automated program repair to fuzzing and vulnerability remediation, spanning research prototypes to production-facing tools. Full academic CV [here](/cv/).
+Engineering-oriented researcher in software assurance, focused on making LLM-assisted software engineering reliable and secure—from automated program repair to fuzzing and vulnerability remediation, spanning research prototypes to production-facing tools. See my full academic [CV](/cv/).
 
 Experience
 ======
-* 2026 - present: **Research Consultant**, Sonar
+* 2026–present: **Research Consultant**, Sonar
   * Continuing research collaboration on automated program repair and AI-assisted software engineering
 
-* Feb 2025 - 2025: **Research Engineer**, Sonar
+* Feb 2025–2025: **Research Engineer**, Sonar
   * Agentic program repair and AI-assisted issue resolution, including SonarQube-integrated tooling, following Sonar's acquisition of AutoCodeRover
 
-* 2024 - Feb 2025: **Co-Founder & CTO**, AutoCodeRover
-  * NUS spin-off building an autonomous AI agent platform for automated software development, combining LLMs with code search and reasoning to automate steps of the SDLC
+* 2024–Feb 2025: **Co-Founder & CTO**, AutoCodeRover
+  * NUS spin-off building an autonomous AI agent platform for automated software development, combining LLMs with code search and reasoning to automate parts of the software development lifecycle
   * Acquired by [Sonar](https://www.sonarsource.com/company/press-releases/sonar-acquires-autocoderover-to-supercharge-developers-with-ai-agents/) in February 2025
 
 * Jul 2020 - Aug 2022: **ANTLR Software Consultant**, Kruggle
@@ -26,8 +26,8 @@ Experience
 
 Education
 ======
-* Ph.D. in Computer Science, National University of Singapore, 2022-2026 (expected; qualifying examination passed)
-* B.Sc. in Computer Science and Engineering, Eindhoven University of Technology, 2019-2022 (GPA 8.1/10, Cum Laude)
+* PhD in Computer Science, National University of Singapore, 2022–2028 (expected; qualifying examination passed)
+* B.Sc. in Computer Science and Engineering, Eindhoven University of Technology, 2019–2022 (GPA 8.1/10, cum laude)
 
 Skills
 ======

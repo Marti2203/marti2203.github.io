@@ -6,4 +6,4 @@ excerpt: 'Working on extending Frama-Clang, a Clang-based C++ front-end for the 
 date: 2026-07-26
 ---
 
-[Frama-Clang](https://git.frama-c.com/pub/frama-clang) is a plugin that lets [Frama-C](https://frama-c.com/) — a platform for the analysis of C programs — take C++ code as input, by translating Clang's AST into Frama-C's own internal representation. It's currently in an early, experimental stage (incomplete, without bug-freeness guarantees); I'm working on extending it to help move it toward a more mature, production-ready state.
+[Frama-Clang](https://git.frama-c.com/pub/frama-clang) is a plugin that lets [Frama-C](https://frama-c.com/)—a platform for analysing C programs—take C++ code as input by translating Clang's AST into Frama-C's internal representation. It is still early and experimental, and I am working to extend it toward a more mature, production-ready state. It remains incomplete, with no guarantee of bug-freeness.

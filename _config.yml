@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Martin Mirchev"
 title_separator          : "-"
 name                     : &name "Martin Mirchev"
-description              : &description "PhD Student in National University of Singapore"
+description              : &description "PhD student at the National University of Singapore"
 url                      : https://marti2203.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Marti2203/Marti2203.github.io"
@@ -85,7 +85,7 @@ analytics:
 author:
   name             : "Martin Mirchev"
   avatar           : "profile.png"
-  bio              : "PhD Student at National University of Singapore, Programming Languages and Software Engineering (PLSE) lab in Trustworthy Software Systems group, advised by professor Abhik Roychoudhury"
+  bio              : "PhD student at the National University of Singapore, working in the Programming Languages and Software Engineering (PLSE) Lab within the Trustworthy Software Systems group under Professor Abhik Roychoudhury"
   location         : "Singapore"
   employer         :
   pubmed           :

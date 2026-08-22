@@ -9,22 +9,22 @@ author_profile: true
 
 Education
 ======
-* B.Sc. in Computer Science and Engineering, Eindhoven University of Technology, 2019-2022 (GPA 8.1/10, Cum Laude)
-* Ph.D. in Computer Science, National University of Singapore, 2022-2026 (expected; qualifying examination passed)
+* B.Sc. in Computer Science and Engineering, Eindhoven University of Technology, 2019–2022 (GPA 8.1/10, cum laude)
+* PhD in Computer Science, National University of Singapore, 2022–2028 (expected; qualifying examination passed)
 
 Work experience
 ======
-* 2026 - present: Research Consultant
+* 2026–present: Research Consultant
   * Sonar
   * Continuing research collaboration on automated program repair and AI-assisted software engineering
 
-* Feb 2025 - 2025: Research Engineer
+* Feb 2025–2025: Research Engineer
   * Sonar
   * Worked on agentic program repair and AI-assisted issue resolution, including SonarQube-integrated tooling, following Sonar's acquisition of AutoCodeRover
 
-* 2024 - Feb 2025: Co-Founder & CTO
+* 2024–Feb 2025: Co-Founder & CTO
   * AutoCodeRover
-  * NUS spin-off building an autonomous AI agent platform for automated software development, combining LLMs with code search and reasoning to automate steps of the SDLC
+  * NUS spin-off building an autonomous AI agent platform for automated software development, combining LLMs with code search and reasoning to automate parts of the software development lifecycle
   * Acquired by [Sonar](https://www.sonarsource.com/company/press-releases/sonar-acquires-autocoderover-to-supercharge-developers-with-ai-agents/) in February 2025
 
 * Nov 2020 - May 2022: Teaching Assistant
@@ -36,7 +36,7 @@ Work experience
   * Migrated existing grammars from ANTLRv3 to ANTLRv4; investigated performance and memory issues
   * Added support for new grammars: Scala, Swift, Kotlin, Objective-C, Go, COBOL, ABAP
 
-* May-Sep 2017, May-Sep 2018: Full Stack Engineer Intern
+* May–Sep 2017 and May–Sep 2018: Full-Stack Engineer Intern
   * Codific
   * Added internationalization capabilities and helped maintain the MyPavel project
   * Developed software for BeagleBone; extended the Prototizer tool to generate Node.js/Ionic projects with PostgreSQL schemas
@@ -56,7 +56,7 @@ Skills
 
 Personal Projects
 ======
-* **ANTLRStudio** (F#, C#) - a minimalistic IDE for developing ANTLR grammars
+* **ANTLRStudio** (F#, C#) – a minimal IDE for developing ANTLR grammars
 * Interpreter for a kernel programming language (C#)
 
 Publications
