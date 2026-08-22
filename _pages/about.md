@@ -2,14 +2,14 @@
 permalink: /
 title: "About me"
 excerpt: "About me"
-description: "PhD student at the National University of Singapore, researching automated program repair, LLM-driven fuzzing, and AI-assisted software security."
+description: "PhD student at the National University of Singapore, researching automated program repair, automated verified evolution of software systems, and AI-assisted software security."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I'm a PhD student at the National University of Singapore, where I work in the Programming Languages and Software Engineering (PLSE) Lab within the Trustworthy Software Systems group, advised by Professor [Abhik Roychoudhury](https://abhikrc.com). My research focuses on making LLM-assisted software engineering more reliable and secure through program analysis, automated program repair, fuzzing, and vulnerability remediation.
+I'm a PhD student at the National University of Singapore, where I work in the Programming Languages and Software Engineering (PLSE) Lab within the Trustworthy Software Systems group, advised by Professor [Abhik Roychoudhury](https://abhikrc.com). My research spans automated program repair, automated verified evolution of software systems, and AI-assisted software security.
 
 Research Directions
 ======
