@@ -18,6 +18,10 @@ Work experience
   * Sonar
   * Continuing research collaboration on automated program repair and AI-assisted software engineering
 
+* Jan–Apr 2026 (Semester 2, AY2025/2026): Teaching Assistant
+  * National University of Singapore, School of Computing
+  * CS3234 Logic for Proofs and Programs
+
 * Feb 2025–2025: Research Engineer
   * Sonar
   * Worked on agentic program repair and AI-assisted issue resolution, including SonarQube-integrated tooling, following Sonar's acquisition of AutoCodeRover
@@ -26,6 +30,10 @@ Work experience
   * AutoCodeRover
   * NUS spin-off building an autonomous AI agent platform for automated software development, combining LLMs with code search and reasoning to automate parts of the software development lifecycle
   * Acquired by [Sonar](https://www.sonarsource.com/company/press-releases/sonar-acquires-autocoderover-to-supercharge-developers-with-ai-agents/) in February 2025
+
+* Jan–Apr 2023 (Semester 2, AY2022/2023): Teaching Assistant
+  * National University of Singapore, School of Computing
+  * CS3213 Foundations of Software Engineering
 
 * Nov 2020 - May 2022: Teaching Assistant
   * Eindhoven University of Technology
